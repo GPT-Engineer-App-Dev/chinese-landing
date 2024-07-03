@@ -1,6 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Home, Scroll, Lantern, BuildingSkyscraper } from "lucide-react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query"; // Add missing imports
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Layout from "./layouts/navbar"; // Use the navbar layout
 import Index from "./pages/Index.jsx";
