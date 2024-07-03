@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Scroll, Building2, Lantern as LanternIcon } from "lucide-react";
+import { Scroll, Building2 } from "lucide-react"; // Removed Lantern import
+import { Lantern } from "@/components/ui/icons"; // Assuming Lantern is a custom icon component
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 
 const Index = () => {
@@ -35,7 +36,7 @@ const Index = () => {
         </Card>
         <Card>
           <CardHeader>
-            <LanternIcon className="h-12 w-12 mx-auto" />
+            <Lantern className="h-12 w-12 mx-auto" />
             <CardTitle className="text-center mt-4">Culture</CardTitle>
           </CardHeader>
           <CardContent>
